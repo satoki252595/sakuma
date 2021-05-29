@@ -6,8 +6,9 @@ public class Main{
     View frame = new View("./png/sample1.png");
 
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setBounds(300, 300, 150, 150);
+    frame.setBounds(20, 20, 1080, 1920);
     frame.setTitle("自動販売機");
     frame.setVisible(true);
+
     }
 }
